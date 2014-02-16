@@ -3,7 +3,9 @@
 .hd {
 	top: 0;
 	width: 100%;
+	min-width: 700px;
 	height: 39px;
+	display: block;
 	background: #000;
 	z-index: 23;
 	white-space: nowrap;
@@ -13,5 +15,8 @@
 /* footer style */
 
 .ft {
-
+	width: 100%;
+	min-width: 700px;
+	height: 39px;
+	display: block;
 }

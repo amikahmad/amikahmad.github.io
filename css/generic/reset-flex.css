@@ -1,0 +1,61 @@
+/* reset.css with flex kit */
+
+/* vertical rhythm - imagine that we draw imaginary lines down the page at fixed intervals, each line of type or each margin or any other page element will take up either one line or exact multiples of lines. they keep the beat of the page. */
+
+html {
+    height: 100%;
+    font-size: 62.5%; /* 62.5% computes to 10px if the user has not adjusted the browsers default font size  - to adjust body copy by rems multiply by ten to get pixels size - eg: 1rem = 10px | 1.4rem = 14px | 2.3rem = 23px */
+
+    background: url(line.svg) no-repeat; /* this serves as a visual guide to show us if we have skipped a beat in our rhythm by showing lines at 23px intervals */
+}
+
+/* reset - code below removes margins and padding so they don't interfere with the rhythm we have setup */
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, p, th, td, article, section, figure, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%; /* width is needed for firefox */
+
+    /* new flexbox */
+    display: -webkit-flex;
+    display: flex;
+
+    /* flex align - flex-start (default), flex-end, center, baseline, stretch */
+    -webkit-align-items: center;
+    align-items: center;
+
+    /* flex justify  - flex-start, flex-end, center, space-between, space-around */
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    /* align content - modifies the behavior of flex-wrap: similar to align-items but instead of aligning Flex items it aligns Flex Lines - stretch (default), flex-start, flex-end, center, space-between, space-around */
+    -webkit-align-content: center;
+    align-content: center;
+
+    /* flex direction  - row-reverse, column, column-reverse */
+    /* -webkit-flex-direction: column; */
+    /* flex-direction: column; */
+
+    /* flex wrap - nowrap (nowrap), wrap, wrap-reverse */
+    /* -webkit-flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+
+    /* flex-flow: shorthand for flex-direction and flex-wrap */
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    background-color: #000000;
+
+    /* set up base vertical rhythm with rems - this means the type and page elements will follow this set rhythm  - this us acheive visual consistency in our layout */
+    font-family: "Segoe UI Light", lighter;
+    font-size: 1.5rem; /* 15px - all basic typography elements except headings inherit this */
+    line-height: 2.3rem; /* 23px */
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+}
