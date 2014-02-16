@@ -11,8 +11,9 @@
 }
 
 .nav_text {
-	font: 700 13px/20px "nyt-franklin", arial, sans-serif;
+	/* font: 700 13px/20px "nyt-franklin", arial, sans-serif; */
 	float: left;
+	color: #ffffff;
 	letter-spacing: .1em;
 	margin-top: 10px;
 	text-transform: uppercase;
