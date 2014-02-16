@@ -1,0 +1,19 @@
+/* nav styles */
+
+.nav_left {
+	float: left;
+	margin-left: 30px;
+}
+
+.nav_right {
+	float: right;
+	margin-right: 30px;
+}
+
+.nav_text {
+	font: 700 13px/20px "nyt-franklin", arial, sans-serif;
+	float: left;
+	letter-spacing: .1em;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
