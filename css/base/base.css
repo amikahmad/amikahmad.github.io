@@ -1,6 +1,27 @@
 /* base styles */
 
-.ul {
+body {
+	color: White;
+	font-family: 'Istok Web', sans-serif;
+}
+
+nav {
+	margin-top: 28px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
 	display: inline;
-	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: White;
 }
