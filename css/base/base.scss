@@ -1,1 +1,35 @@
 /* base scss - eg: h1 tags, sections, headers */
+
+h1 {
+
+}
+
+section {
+	width:100%;
+	height:300px;
+}
+
+.section--1 {
+	@extend section;
+	background-color:$c-foursquare;
+}
+
+.section--2 {
+	@extend section;
+	background-color:$c-linkedin;
+}
+
+.section--3 {
+	@extend section;
+	background-color: $c-github;
+}
+
+.section--4 {
+	@extend section;
+	background-color:$c-youtube;
+}
+
+.section--5 {
+	@extend section;
+	background-color:$c-vimeo;
+}
