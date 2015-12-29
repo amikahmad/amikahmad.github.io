@@ -1,1 +1,12 @@
-style
+
+/* FONTS THINGS */
+@import url(https://fonts.googleapis.com/css?family=Lato|Quicksand);
+
+/* NAVIGATION */
+nav  {
+    display: block;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav a { text-decoration: none; }
