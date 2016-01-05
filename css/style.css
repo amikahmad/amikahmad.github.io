@@ -93,6 +93,7 @@
 
     header {
         margin-left: 3%;
+        display: inline;
     }
 
     /* Navigation */
