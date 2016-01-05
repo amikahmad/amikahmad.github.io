@@ -41,6 +41,15 @@
 
 /* General CSS */
 
+body {
+    background: #fff;
+}
+
+.wrapper {
+    width: 92.72727272727273%;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
