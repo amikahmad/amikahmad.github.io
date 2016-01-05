@@ -52,22 +52,15 @@ h5, h6          { font-weight: bolder }
 
 
 /* NAVIGATION */
-nav  {
-    display: block;
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
+header nav ul li a {
+        color: #454545;
+        font-family: "raleway-regular", arial;
+        font-size: 14px;
+        text-decoration: none;
+        letter-spacing: 1px;
 }
 
-nav a { text-decoration: none; }
-
-/* D3 */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-}
-
-div {
-  position: absolute;
+header nav ul li a:hover,
+header nav ul li a.selected {
+        color: #969595;
 }
