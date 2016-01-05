@@ -52,7 +52,7 @@ h5, h6          { font-weight: bolder }
 
 
 /* NAVIGATION */
-header nav ul li a {
+nav ul li a {
         color: #454545;
         font-family: "raleway-regular", arial;
         font-size: 14px;
@@ -60,7 +60,7 @@ header nav ul li a {
         letter-spacing: 1px;
 }
 
-header nav ul li a:hover,
-header nav ul li a.selected {
+nav ul li a:hover,
+nav ul li a.selected {
         color: #969595;
 }
