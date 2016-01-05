@@ -93,7 +93,6 @@
 
     header {
         margin-left: 3%;
-        display: inline;
     }
 
     /* Navigation */
@@ -108,6 +107,7 @@
         width: 90%;
         margin-left: 5%;
         padding-top: 5%;
+        float: right;
     }
 
     nav a {
