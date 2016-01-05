@@ -1,4 +1,15 @@
-/* FONTS THINGS */
+/*
+    - Fonts
+    - General CSS
+    - Header
+    - Home/portfolio
+    - Inner page
+    - Map/Contact page
+    - Tooltip
+    - Responsive code
+    *****************************************
+
+*/
 
 
 /*  Fonts  */
@@ -28,7 +39,7 @@
 }
 
 
-/* REGULAR CSS */
+/* General CSS */
 
 h1,
 h2,
@@ -75,7 +86,20 @@ h6 {
     font-weight: bolder
 }
 
+
 /* NAVIGATION */
+
+section {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+nav {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
+}
 
 ul {
     list-style-type: none;
