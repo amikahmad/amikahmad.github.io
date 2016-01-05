@@ -2,109 +2,106 @@
 <html lan="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
     <title>AMIK AHMAD</title>
     <meta name="author" content="Amik Ahmad">
     <meta name="description" content="Problem solver, designer, trader, and artist.">
     <meta name="keywords" content="amik, amik ahmad, design, art, data, healthcare, trader, nyc, artist">
     <meta name="viewport" content="user-scalable=no, initial-scale=0.6, maximum-scale=0.6" />
     <meta http-equiv="pragma" content="no-cache">
-
     <!--stylesheets-->
     <link ref="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-<section>
-    <nav>
-    <h1>AMIK AHMAD</h1>
-    <ul>
-        <li><a target="_blank" href="http://instagram.com/amikahmad">INSTAGRAM</a></li>
-        <li><a target="_blank" href="http://twitter.com/amikahmad">TWITTER</a></li>
-        <li><a target="_blank" href="https:/github.com/amikahmad">GITHUB</a></li>
-        <li><a target="_blank" href="https://medium.com/@amikahmad">WRITING</a></li>
-        <li><a target="_blank" href="http://cutjapan.com/">JAPANESE FILM</a></li>
-        <li><a target="_blank" href="http://amik.nyc/files/amik_resume.pdf">RESUME</a></li>
-    </ul>
-    </nav>
-    <br>
-    <br>
-     <p>new projects and portfolio too appear here soon ... stay tuned.</p>
-    <br>
-
-    <div id="description">
-    <p>I'm an active problem solver, with a background in design, business, data, hardware and software.</p>
-    </div>
+    <section>
+        <nav>
+            <h1>amik ahmad</h1>
+            <ul>
+                <li><a target="_blank" href="http://instagram.com/amikahmad">INSTAGRAM</a></li>
+                <li><a target="_blank" href="http://twitter.com/amikahmad">TWITTER</a></li>
+                <li><a target="_blank" href="https:/github.com/amikahmad">GITHUB</a></li>
+                <li><a target="_blank" href="https://medium.com/@amikahmad">WRITING</a></li>
+                <li><a target="_blank" href="http://cutjapan.com/">JAPANESE FILM</a></li>
+                <li><a target="_blank" href="http://amik.nyc/files/amik_resume.pdf">RESUME</a></li>
+            </ul>
+        </nav>
+        <div id="description">
+            <p>I'm an active problem solver, with a background in design, business, data, hardware and software.</p>
+        </div>
     </section>
-
     <article>
-    <h2>One Medical Group</h2>
-    <p>I designed and developed proprietary IoT devices for the enterprise. I spearheaded and managed all aspect of product design including, concept, budgeting, software, hardware, fabrication and final execution.</p>
-    <a target="_blank" href="http://OneMedical.com">Visit One Medical<em>→</em></a>
+        <h2>One Medical Group</h2>
+        <p>I designed and developed proprietary IoT devices for the enterprise. I spearheaded and managed all aspect of product design including, concept, budgeting, software, hardware, fabrication and final execution.</p>
+        <a target="_blank" href="http://OneMedical.com">Visit One Medical<em>→</em></a>
     </article>
-
     <article>
-    <h2>The Sunday Paper Group</h2>
-    <p>I've managed multiple interactive hardware, software and data design projects. Among our clients were O’Reilly Media, One Life
-Healthcare, and Microsoft</p>
-    <a target="_blank" href="http://amik.nyc">Amik.nyc<em>→</em></a>
+        <h2>The Sunday Paper Group</h2>
+        <p>I've managed multiple interactive hardware, software and data design projects. Among our clients were O’Reilly Media, One Life Healthcare, and Microsoft</p>
+        <a target="_blank" href="http://amik.nyc">Amik.nyc<em>→</em></a>
     </article>
-
     <article>
-    <h2>Razorfish</h2>
-    <p>I worked on cross -functional teams to design and launch products for multiple clients including UNIQLO.com and Mercedes-Benz.</p>
-    <a target="_blank" href="https://www.uniqlo.com">View Site  <em>→</em></a>
+        <h2>Razorfish</h2>
+        <p>I worked on cross -functional teams to design and launch products for multiple clients including UNIQLO.com and Mercedes-Benz.</p>
+        <a target="_blank" href="https://www.uniqlo.com">View Site  <em>→</em></a>
     </article>
-
     <article>
-    <h2>Medistem Laboratories</h2>
-    <p>I advised and executed strategy for the client facing efforts of domestic and off-shore business, government regulation, technology, and medical research: leading up to an IPO.</p>
-    <a target="_blank" href="http://www.medistempanama.com/">Visit Company Site<em>→</em></a>
+        <h2>Medistem Laboratories</h2>
+        <p>I advised and executed strategy for the client facing efforts of domestic and off-shore business, government regulation, technology, and medical research: leading up to an IPO.</p>
+        <a target="_blank" href="http://www.medistempanama.com/">Visit Company Site<em>→</em></a>
     </article>
     <br>
     <br>
-
     <footer></footer>
-
     <!--javascript-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
     <script>
-        var mobile;
-        if( (/iPhone|iPod|Android|BlackBerry/).test(navigator.userAgent) ) {
-            mobile = true;
-        }else{
-            mobile = false;
-        }
+    var mobile;
+    if ((/iPhone|iPod|Android|BlackBerry/).test(navigator.userAgent)) {
+        mobile = true;
+    } else {
+        mobile = false;
+    }
 
+    adjustHeight();
+
+    $(window).resize(function() {
         adjustHeight();
+    });
 
-        $( window ).resize(function() {
-            adjustHeight();
-        });
+    function adjustHeight() {
+        if (!mobile) {
+            var height = $(window).height();
+            var adjust = height;
 
-        function adjustHeight(){
-            if(!mobile){
-                var height = $( window ).height();
-                var adjust = height;
-
-                if(height > 400){
-                    $("#description").css({"margin-top":adjust/2-120+"px", "padding-bottom":adjust/2-150+"px"});
-                }
+            if (height > 400) {
+                $("#description").css({
+                    "margin-top": adjust / 2 - 120 + "px",
+                    "padding-bottom": adjust / 2 - 150 + "px"
+                });
             }
         }
+    }
     </script>
     <!-- google analytics-->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-19746927-1', 'auto');
-      ga('send', 'pageview');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-19746927-1', 'auto');
+    ga('send', 'pageview');
     </script>
 </body>
 
