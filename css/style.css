@@ -1,125 +1,133 @@
-/*
+    /*
     - Fonts
     - General CSS
-    - Header
-    - Home/portfolio
-    - Inner page
-    - Map/Contact page
-    - Tooltip
-    - Responsive code
+    - Navigation
+    - Pitch
     *****************************************
-
 */
 
+    /*  Fonts  */
 
-/*  Fonts  */
+    @font-face {
+        font-family: 'raleway-regular';
+        src: url('../fonts/raleway-regular.eot');
+        src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-regular.woff') format('woff'), url('../fonts/raleway-regular.ttf') format('truetype'), url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway-regular.eot');
-    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-regular.woff') format('woff'), url('../fonts/raleway-regular.ttf') format('truetype'), url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'raleway-bold';
+        src: url('../fonts/raleway-bold.eot');
+        src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-bold.woff') format('woff'), url('../fonts/raleway-bold.ttf') format('truetype'), url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'raleway-bold';
-    src: url('../fonts/raleway-bold.eot');
-    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-bold.woff') format('woff'), url('../fonts/raleway-bold.ttf') format('truetype'), url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'raleway-semibold';
+        src: url('../fonts/raleway-semibold.eot');
+        src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'raleway-semibold';
-    src: url('../fonts/raleway-semibold.eot');
-    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    /* General CSS */
 
+    body {
+        background: #fff;
+    }
 
-/* General CSS */
+    .wrapper {
+        width: 92.72727272727273%;
+        margin: 0 auto;
+    }
 
-body {
-    background: #fff;
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        color: #4b4848;
+        font-family: "raleway-regular", arial;
+        letter-spacing: 1px;
+    }
 
-.wrapper {
-    width: 92.72727272727273%;
-    margin: 0 auto;
-}
+    h1 {
+        font-size: 2em;
+        margin: .67em 0
+    }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    color: #4b4848;
-    font-family: "raleway-regular", arial;
-    letter-spacing: 1px;
-}
+    h2 {
+        font-size: 1.5em;
+        margin: .75em 0
+    }
 
-h1 {
-    font-size: 2em;
-    margin: .67em 0
-}
+    h3 {
+        font-size: 1.17em;
+        margin: .83em 0
+    }
 
-h2 {
-    font-size: 1.5em;
-    margin: .75em 0
-}
+    h5 {
+        font-size: .83em;
+        margin: 1.5em 0
+    }
 
-h3 {
-    font-size: 1.17em;
-    margin: .83em 0
-}
+    h6 {
+        font-size: .75em;
+        margin: 1.67em 0
+    }
 
-h5 {
-    font-size: .83em;
-    margin: 1.5em 0
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bolder
+    }
 
-h6 {
-    font-size: .75em;
-    margin: 1.67em 0
-}
+    /* Navigation */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: bolder
-}
+    section {
+        background-color: white;
+        width: 100%;
+        display: inline-block;
+    }
 
+    nav {
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 5%;
+    }
 
-/* NAVIGATION */
+    nav a {
+        color: #454545;
+        font-family: "raleway-regular", arial;
+        font-size: 14px;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
 
-section {
-    background-color: white;
-    width: 100%;
-    display: inline-block;
-}
+    nav a:hover,
+    nav a.selected {
+        color: #969595;
+    }
 
-nav {
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 5%;
-}
+    /* Pitch */
 
-nav a {
-    color: #454545;
-    font-family: "raleway-regular", arial;
-    font-size: 14px;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
+    #pitch {
+        margin-left: 10%;
+        margin-top: 270px;
+        padding-bottom: 220px;
+        padding-right: 10%;
+        max-width: 510px;
+    }
 
-nav a:hover,
-nav a.selected {
-    color: #969595;
-}
+    #pitch p {
+        font-size: 20px;
+        line-height: 34px;
+        color: #444;
+    }
