@@ -134,12 +134,11 @@
     /* Pitch */
 
     #pitch {
-        margin-left: 3%;
         margin-top: 30px;
         padding-bottom: 220px;
         padding-right: 10%;
-        max-width: 510px;
-        border: 2px solid green;
+        max-width: 400px;
+        border: 2px solid pink;
     }
 
     #pitch p {
