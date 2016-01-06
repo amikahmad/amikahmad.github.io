@@ -59,16 +59,6 @@
         margin: .67em 0
     }
 
-    h1 a {
-        color: #454545;
-        text-decoration: none
-    }
-
-    h1 a:hover,
-    h1 a.selected {
-        color: #969595
-    }
-
     h2 {
         font-size: 1.5em;
         margin: .75em 0
@@ -131,14 +121,14 @@
     nav a.selected {
         color: #969595;
     }
+
     /* Pitch */
 
     #pitch {
         margin-top: 30px;
         padding-bottom: 220px;
         padding-right: 10%;
-        max-width: 400px;
-        border: 2px solid pink;
+        max-width: 600px;
     }
 
     #pitch p {
@@ -149,4 +139,5 @@
 
     article {
         border: 2px solid orange;
+        width: 25%;
     }
