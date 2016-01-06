@@ -1,6 +1,8 @@
     /*
     - Fonts
     - General CSS
+    - Sections
+    - Header
     - Navigation
     - Pitch
     *****************************************
@@ -87,26 +89,32 @@
     h6 {
         font-weight: bolder
     }
+
+    /* Section */
+
+    section {
+        width: 100%;
+        display: inline-block;
+        border: 2px solid purple
+    }
+
     /* Header */
 
     header {
+        width: 50%;
         margin-left: 3%;
+        float: left;
+        border: 1px dotted blue
     }
+
     /* Navigation */
 
-    section {
-        background-color: white;
-        width: 100%;
-        display: inline-block;
-        border: 2px solid purple;
-    }
-
     nav {
-        width: 90%;
-        margin-left: 5%;
-        padding-top: 5%;
+        width: 50%;
+        margin-right: 3%;
+        padding-top: 15px;
         float: right;
-        border: 2px solid blue;
+        border: 1px dotted green
     }
 
     nav a {
