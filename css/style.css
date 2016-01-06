@@ -95,7 +95,6 @@
     section {
         display: flex;
         align-items: baseline;
-        border: 2px solid purple
     }
 
     /* Header */
@@ -132,9 +131,9 @@
 
     #pitch {
         display: flex;
+        width: 75%;
         margin-left: 3%;
         margin-top: 30px
-        border: 1px dotted green;
     }
 
     #pitch p {
