@@ -39,6 +39,7 @@
     .wrapper {
         width: 92.72727272727273%;
         margin: 0 auto;
+        border: 5px solid red;
     }
 
     h1,
