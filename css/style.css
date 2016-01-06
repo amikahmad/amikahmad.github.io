@@ -93,28 +93,26 @@
     /* Section */
 
     section {
-        width: 100%;
-        display: inline-block;
+        display: flex;
+        align-items: baseline;
         border: 2px solid purple
     }
 
     /* Header */
 
     header {
-        width: 50%;
+        display: flex;
+        width: 75%;
         margin-left: 3%;
-        float: left;
-        border: 1px dotted blue
     }
 
     /* Navigation */
 
     nav {
-        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
         margin-right: 3%;
-        padding-top: 15px;
-        float: right;
-        border: 1px dotted green
     }
 
     nav a {
@@ -133,15 +131,15 @@
     /* Pitch */
 
     #pitch {
-        margin-top: 30px;
-        padding-bottom: 220px;
-        padding-right: 10%;
-        max-width: 600px;
+        display: flex;
+        margin-left: 3%;
+        margin-top: 30px
+        border: 1px dotted green;
     }
 
     #pitch p {
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 16px;
+        line-height: 20px;
         color: #444;
     }
 
