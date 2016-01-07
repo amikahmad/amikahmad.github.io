@@ -97,8 +97,8 @@
     /* HTML5 */
 
     section {
-        margin-left: 5%;
-        margin-right:  5%
+        margin-left: 7%;
+        margin-right:  7%;
     }
     /* Flexbox */
 
@@ -121,9 +121,8 @@
 
     header {
         display: flex;
-        flex-direction: row;
         align-items: baseline;
-        width: 100%
+        width: 100%;
     }
 
     h1 {
@@ -135,8 +134,8 @@
         display: flex;
         justify-content: space-between;
         margin-left: 60%;
-        width: 25%;
-        min-width: 300px
+        width: 100%;
+        min-width: 300px;
     }
 
     nav a {
@@ -149,26 +148,13 @@
         margin-top: 5%;
         margin-bottom: 21%;
     }
-    /* Pitch */
 
-    #pitch {
-        width: 75%;
-        margin-left: 3%;
-        margin-top: 30px
-    }
-
-    #pitch p {
-        font-size: 16px;
-        line-height: 20px;
-        color: #444;
-    }
     /* Flex Section 2 */
 
     #section3 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: stretch;
     }
 
     article {
