@@ -98,7 +98,7 @@
 
     section {
         margin-left: 7%;
-        margin-right:  7%;
+        margin-right: 7%;
     }
     /* Flexbox */
 
@@ -148,7 +148,6 @@
         margin-top: 5%;
         margin-bottom: 21%;
     }
-
     /* Flex Section 2 */
 
     #section3 {
@@ -164,7 +163,7 @@
         flex-wrap: wrap;
         text-align: center;
     }
-    /* Style Specifics */
+    /* Color Morphs */
 
     #oneMedical {
         background-color: darkorange;
@@ -180,4 +179,44 @@
 
     #medistem {
         background-color: dodgerblue;
+    }
+
+    .color0 {
+        background-color: #99e6b3;
+    }
+
+    .color1 {
+        background-color: #99e6df;
+    }
+
+    .color2 {
+        background-color: #99bfe6;
+    }
+
+    .color3 {
+        background-color: #9f99e6;
+    }
+
+    .color4 {
+        background-color: #cc99e6;
+    }
+
+    .color5 {
+        background-color: #e699d2;
+    }
+
+    .color6 {
+        background-color: #e69999;
+    }
+
+    .color7 {
+        background-color: #e6c699;
+    }
+
+    .color8 {
+        background-color: #d9e699;
+    }
+
+    .color9 {
+        background-color: #ace699;
     }
