@@ -41,7 +41,6 @@
     .wrapper {
         width: 92.72727272727273%;
         margin: 0 auto;
-        border: 2px solid red;
     }
 
     h1,
@@ -89,14 +88,12 @@
     h6 {
         font-weight: bolder
     }
-
     /* Section */
 
     section {
         display: flex;
         align-items: baseline;
     }
-
     /* Header */
 
     header {
@@ -104,7 +101,6 @@
         width: 75%;
         margin-left: 3%;
     }
-
     /* Navigation */
 
     nav {
@@ -126,7 +122,6 @@
     nav a.selected {
         color: #969595;
     }
-
     /* Pitch */
 
     #pitch {
