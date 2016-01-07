@@ -83,6 +83,17 @@
     h6 {
         font-weight: bolder
     }
+
+    a {
+        color: #454545;
+        font-family: "raleway-regular", arial;
+        text-decoration: none
+    }
+
+    a:hover,
+    a.selected {
+        color: #969595;
+    }
     /* HTML5 */
 
     section {
@@ -129,16 +140,8 @@
     }
 
     nav a {
-        color: #454545;
-        font-family: "raleway-regular", arial;
         font-size: 14px;
-        text-decoration: none;
         letter-spacing: 1px;
-    }
-
-    nav a:hover,
-    nav a.selected {
-        color: #969595;
     }
     /* Flex Section 2 */
 
@@ -174,5 +177,23 @@
         min-height: 250px;
         justify-content: center;
         flex-wrap: wrap;
-        text-align: auto
+        text-align: center;
+        align-items: baseline
+    }
+    /* Style Specifics */
+
+    .oneMedical {
+        background-color: orange;
+    }
+
+    .art {
+        background-color: violet;
+    }
+
+    .razorfish {
+        background-color: red
+    }
+
+    .medistem {
+        background-color: green
     }
