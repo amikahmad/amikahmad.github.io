@@ -1,7 +1,7 @@
     /*
     - Fonts
     - General CSS
-    - Sections
+    - HTML5
     - Header
     - Navigation
     - Pitch
@@ -36,11 +36,6 @@
 
     body {
         background: #fff;
-    }
-
-    .wrapper {
-        width: 92.72727272727273%;
-        margin: 0 auto;
     }
 
     h1,
@@ -88,27 +83,50 @@
     h6 {
         font-weight: bolder
     }
-    /* Section */
+    /* HTML5 */
 
     section {
-        display: flex;
-        align-items: baseline;
-        margin-top: 3%
+        margin: 3% 5% 3% 5%;
     }
+
+    /* Flexbox */
+
+    .wrapper {
+        display: flex;
+        min-width: 92.72727272727273%;
+        min-height: 500px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    /* Flex Section 1 */
+
+    #section1 {
+        display: flex;
+        min-width: 25%;
+    }
+
     /* Header */
 
     header {
         display: flex;
-        width: 75%;
-        margin-left: 3%;
+        flex-direction: row;
+        align-items: baseline;
+        width: 100%
     }
+
+    h1 {
+        min-width: 220px;
+    }
+
     /* Navigation */
 
     nav {
         display: flex;
         justify-content: space-between;
+        margin-left: 60%;
         width: 25%;
-        margin-right: 3%;
+        min-width: 300px
     }
 
     nav a {
@@ -123,10 +141,16 @@
     nav a.selected {
         color: #969595;
     }
-    /* Pitch */
+
+ /* Flex Section 2 */
+
+    #section2 {
+        border: 2px dotted blue;
+    }
+
+/* Pitch */
 
     #pitch {
-        display: flex;
         width: 75%;
         margin-left: 3%;
         margin-top: 30px
@@ -138,7 +162,22 @@
         color: #444;
     }
 
+/* Flex Section 2 */
+
+    #section3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px dotted green;
+    }
+
     article {
+        display: flex;
         border: 2px solid orange;
         width: 25%;
+        min-height: 300px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
+
+
