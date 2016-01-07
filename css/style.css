@@ -168,7 +168,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border: 2px dotted green;
     }
 
     article {
@@ -187,13 +186,13 @@
     }
 
     #art {
-        background-color: violet;
+        background-color: lightslateblue;
     }
 
-    #razorfish {
-        background-color: red
+    #razor {
+        background-color: darkgoldenrod;
     }
 
     #medistem {
-        background-color: green
+        background-color: dodgerblue;
     }
