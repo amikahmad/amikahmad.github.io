@@ -35,7 +35,7 @@
     /* General CSS */
 
     body {
-        background: #fff;
+        background-color: #fff;
     }
 
     h1,
@@ -163,6 +163,7 @@
         flex-wrap: wrap;
         text-align: center;
     }
+
     /* Color Morphs */
 
     #oneMedical {
