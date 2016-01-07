@@ -86,7 +86,8 @@
     /* HTML5 */
 
     section {
-        margin: 3% 5% 3% 5%;
+        margin-left: 5%;
+        margin-right: 5%
     }
 
     /* Flexbox */
@@ -104,6 +105,7 @@
     #section1 {
         display: flex;
         min-width: 25%;
+        margin-bottom: -5%
     }
 
     /* Header */
@@ -145,6 +147,7 @@
  /* Flex Section 2 */
 
     #section2 {
+        margin-top: 5%;
         border: 2px dotted blue;
     }
 
