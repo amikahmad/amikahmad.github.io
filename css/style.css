@@ -182,18 +182,18 @@
     }
     /* Style Specifics */
 
-    .oneMedical {
+    #oneMedical {
         background-color: orange;
     }
 
-    .art {
+    #art {
         background-color: violet;
     }
 
-    .razorfish {
+    #razorfish {
         background-color: red
     }
 
-    .medistem {
+    #medistem {
         background-color: green
     }
