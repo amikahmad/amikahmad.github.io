@@ -1,0 +1,115 @@
+<!doctype html>
+<html lan="en">
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <title>AMIK AHMAD</title>
+    <meta name="author" content="Amik Ahmad">
+    <meta name="description" content="Problem solver, designer, trader, and artist.">
+    <meta name="keywords" content="amik, amik ahmad, design, art, data, healthcare, trader, nyc, artist">
+    <meta name="viewport" content="user-scalable=no, initial-scale=0.6, maximum-scale=0.6" />
+    <meta http-equiv="pragma" content="no-cache">
+    <!--icon-->
+    <link rel="shortcut icon" href="/files/amikahmad.ico">
+    <!--stylesheets-->
+    <link ref="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="wrapper">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <section id="section1">
+        <header>
+            <h1>AMIK AHMAD</h1>
+            <nav>
+                <a target="_blank" href="http://instagram.com/amikahmad">SEE</a>
+                <a target="_blank" href="/sub/blog/blog.html">THINK</a>
+                <a target="_blank" href="http://twitter.com/amikahmad">TWEET</a>
+                <a target="_blank" href="mailto:amikahmad@gmail.com?subject=Hey,%20let's%20chat!">
+EMAIL</a>
+            </nav>
+        </header>
+    </section>
+    <section id="section2">
+        <p>I actively solve problems.
+            <br>I bridge gaps because it is necessary.
+            <br>I'm a fusionist that designs cross-disciplinary solutions.
+        </p>
+    </section>
+    <section id="section3">
+        <article>
+            <h2>One Medical Group</h2>
+            <p>I designed and developed proprietary IoT devices for the enterprise. I spearheaded and managed all aspect of product design including, concept, budgeting, software, hardware, fabrication and final execution.</p>
+            <a target="_blank" href="http://OneMedical.com">View Work</a>
+        </article>
+        <article>
+            <h2>Consulting and Art</h2>
+            <p>I've managed multiple interactive hardware, software and data design projects through the company I founded, The Sunday Paper Group. As an artist I've visualized data to create double-feedback loops and change behavior.</p>
+            <a target="_blank" href="http://amik.nyc">View Art Sample</a>
+        </article>
+        <article>
+            <h2>Razorfish</h2>
+            <p>As a UX designer and functional analyst, I worked on cross-functional teams to design and launch products for multiple clients including UNIQLO.com and Mercedes-Benz.</p>
+            <br>
+            <br>
+            <a target="_blank" href="https://www.uniqlo.com">View Work</a>
+        </article>
+        <article>
+            <h2>Medistem Laboratories</h2>
+            <p>I advised and executed strategy for the client facing efforts of domestic and off-shore business, government regulation, technology, and medical research: leading up to an IPO.</p>
+            <a target="_blank" href="http://www.medistempanama.com/">Visit Company Site</a>
+        </article>
+    </section>
+    <footer></footer>
+    <!--javascript-->
+    <script src="/js/colorMorph.js"></script>
+    <!--mobile sizing-->
+    <script>
+    var mobile;
+    if ((/iPhone|iPod|Android|BlackBerry/).test(navigator.userAgent)) {
+        mobile = true;
+    } else {
+        mobile = false;
+    }
+
+    adjustHeight();
+
+    $(window).resize(function() {
+        adjustHeight();
+    });
+
+    function adjustHeight() {
+        if (!mobile) {
+            var height = $(window).height();
+            var adjust = height;
+
+            if (height > 400) {
+                $("#description").css({
+                    "margin-top": adjust / 2 - 120 + "px",
+                    "padding-bottom": adjust / 2 - 150 + "px"
+                });
+            }
+        }
+    }
+    </script>
+    <!-- google analytics-->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-19746927-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

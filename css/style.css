@@ -35,7 +35,7 @@
     /* General CSS */
 
     body {
-        background-color: #fff;
+        background-color: WhiteSmoke;
     }
 
     h1,
@@ -162,8 +162,8 @@
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
+        align-items: baseline;
     }
-
     /* Color Morphs */
 
     #oneMedical {
@@ -182,42 +182,8 @@
         background-color: dodgerblue;
     }
 
-    .color0 {
-        background-color: #99e6b3;
-    }
-
-    .color1 {
-        background-color: #99e6df;
-    }
-
-    .color2 {
-        background-color: #99bfe6;
-    }
-
-    .color3 {
-        background-color: #9f99e6;
-    }
-
-    .color4 {
-        background-color: #cc99e6;
-    }
-
-    .color5 {
-        background-color: #e699d2;
-    }
-
-    .color6 {
-        background-color: #e69999;
-    }
-
-    .color7 {
-        background-color: #e6c699;
-    }
-
-    .color8 {
-        background-color: #d9e699;
-    }
-
-    .color9 {
-        background-color: #ace699;
+    #myCanvas {
+        postion: fixed;
+        top: 0;
+        left: 0;
     }
