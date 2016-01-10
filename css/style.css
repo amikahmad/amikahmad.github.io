@@ -163,7 +163,6 @@
     #section3 {
         display: flex;
         justify-content: space-between;
-        border: 2px dotted grey;
     }
 
     article {
