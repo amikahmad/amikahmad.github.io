@@ -186,7 +186,7 @@
     /* Image CSS */
 
 article  {
-  height:100px;
+  height:40px;
   animation: moving 1.8s ease-in-out infinite;flex: 1;
 }
 article:nth-child(1) {
