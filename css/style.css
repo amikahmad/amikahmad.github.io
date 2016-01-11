@@ -31,6 +31,20 @@
         src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
         font-weight: normal;
         font-style: normal;
+
+        @font-face {
+        font-family: 'avenir-regular';
+        src: url('../fonts/AvenirNextLTPro-Regular.eot');
+        src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Regular.svg#avenir-regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+        @font-face {
+        font-family: 'raleway-semibold';
+        src: url('../fonts/raleway-semibold.eot');
+        src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+        font-weight: normal;
+        font-style: normal;
     }
     /* General CSS */
 
@@ -39,7 +53,6 @@
         overflow: hidden;
     }
 
-    h1,
     h2,
     h3,
     h4,
@@ -127,11 +140,18 @@
     }
 
     h1 {
+        font-family: "avenier-regular", arial;
         min-width: 220px;
+        color: #4b4848;
+        letter-spacing: 1px;
     }
+
+    h1::last-word {
+    color: #00f;
+}
     /* Navigation */
 
-    nav {
+    #social {
         display: flex;
         justify-content: space-between;
         margin-left: 60%;
@@ -139,7 +159,7 @@
         min-width: 300px;
     }
 
-    nav a {
+    #social a {
         font-size: 14px;
         letter-spacing: 1px;
     }
@@ -154,6 +174,7 @@
     #section3 {
         display: flex;
         justify-content: space-between;
+        margin
     }
 /*
     article {
@@ -166,28 +187,10 @@
         align-items: baseline;
     }
     */
-    /* Color Morphs */
-
-    #oneMedical {
-        background-color: darkorange;
-    }
-
-    #art {
-        background-color: lightslateblue;
-    }
-
-    #razor {
-        background-color: #CDCD00;
-    }
-
-    #medistem {
-        background-color: dodgerblue;
-    }
-    /* Image CSS */
 
 article  {
-  height:30px;
-  animation: moving 2.4s ease-in-out infinite;flex: 1;
+  height:15px;
+  /*animation: moving 2.4s ease-in-out infinite;flex: 1;*/
 }
 article:nth-child(1) {
   background: gold;animation-delay: -0.2s;
