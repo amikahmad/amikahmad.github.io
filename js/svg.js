@@ -27,7 +27,7 @@ svg.appendChild(bigCircles);
 var shapes = drawShapes();
 svg.appendChild(shapes);
 // Add to document
-document.body.appendChild(svg);
+document.body.bk.appendChild(svg);
 
 /**
  * Helpers
