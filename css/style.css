@@ -150,13 +150,13 @@
         margin-top: 5%;
         margin-bottom: 21%;
     }
-    /* Flex Section 2 */
+    /* Flex Section 3 */
 
     #section3 {
         display: flex;
         justify-content: space-between;
     }
-
+/*
     article {
         display: flex;
         width: 20%;
@@ -166,6 +166,7 @@
         text-align: center;
         align-items: baseline;
     }
+    */
     /* Color Morphs */
 
     #oneMedical {
@@ -185,19 +186,20 @@
     }
     /* Image CSS */
 
-section.ani  {
+article  {
+  height:100px;
   animation: moving 1.8s ease-in-out infinite;flex: 1;
 }
-section.ani:nth-child(1) {
+article:nth-child(1) {
   background: gold;animation-delay: -0.2s;
 }
-section.ani:nth-child(2) {
+article:nth-child(2) {
   background: deepskyblue;animation-delay: -0.6s;
 }
-section.ani:nth-child(3) {
+article:nth-child(3) {
   background: yellowgreen;animation-delay: -1.0s;
 }
-section.ani:nth-child(4) {
+article:nth-child(4) {
   background: deeppink;animation-delay: -1.4s;
 }
 @-webkit-keyframes moving {50%{flex: 2;}}
