@@ -40,15 +40,6 @@
         overflow: hidden;
     }
 
-    svg {
-        margin: auto;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-
     h1,
     h2,
     h3,
@@ -194,20 +185,20 @@
     }
     /* Image CSS */
 
-footer  {
+.ani  {
   height:100px;
   animation: moving 1.8s ease-in-out infinite;flex: 1;
 }
-footer:nth-child(1) {
+.ani:nth-child(1) {
   background: gold;animation-delay: -0.2s;
 }
-footer:nth-child(2) {
+.ani:nth-child(2) {
   background: deepskyblue;animation-delay: -0.6s;
 }
-footer:nth-child(3) {
+.ani:nth-child(3) {
   background: yellowgreen;animation-delay: -1.0s;
 }
-footer:nth-child(4) {
+.ani:nth-child(4) {
   background: deeppink;animation-delay: -1.4s;
 }
 @-webkit-keyframes moving {50%{flex: 2;}}
