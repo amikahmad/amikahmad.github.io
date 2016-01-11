@@ -185,20 +185,20 @@
     }
     /* Image CSS */
 
-.ani  {
+section.ani  {
   height:100px;
   animation: moving 1.8s ease-in-out infinite;flex: 1;
 }
-.ani:nth-child(1) {
+section.ani:nth-child(1) {
   background: gold;animation-delay: -0.2s;
 }
-.ani:nth-child(2) {
+section.ani:nth-child(2) {
   background: deepskyblue;animation-delay: -0.6s;
 }
-.ani:nth-child(3) {
+section.ani:nth-child(3) {
   background: yellowgreen;animation-delay: -1.0s;
 }
-.ani:nth-child(4) {
+section.ani:nth-child(4) {
   background: deeppink;animation-delay: -1.4s;
 }
 @-webkit-keyframes moving {50%{flex: 2;}}
