@@ -8,7 +8,7 @@
     *****************************************
 */
     /*  Fonts  */
-
+    /*
     @font-face {
         font-family: 'raleway-regular';
         src: url('../fonts/raleway-regular.eot');
@@ -32,20 +32,25 @@
         font-weight: normal;
         font-style: normal;
     }
+*/
 
-        @font-face {
-        font-family: 'avenir-regular';
-        src: url('../fonts/AvenirNextLTPro-Regular.eot');
-        src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Regular.svg#avenir-regular') format('svg');
-        font-weight: normal;
+    @font-face {
+        font-family: 'Avenir Next LT Pro Regular';
         font-style: normal;
+        font-weight: normal;
+        src: local('../fonts/AvenirNextLTPro-Regular'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
     }
 
+    @font-face {
+        font-family: 'Avenir Next LT Pro Demi';
+        font-style: normal;
+        font-weight: bolder;
+        src: local('../fonts/AvenirNextLTPro-Demi'), url('../fonts/AvenirNextLTPro-Demi.woff') format('woff');
+    }
     /* General CSS */
 
     body {
         background-color: WhiteSmoke;
-        overflow: hidden;
     }
 
     h2,
@@ -55,7 +60,7 @@
     h6,
     p {
         color: #4b4848;
-        font-family: "raleway-regular", arial;
+        font-family: "Avenir Next LT Pro Regular", arial;
         letter-spacing: 1px;
     }
 
@@ -84,7 +89,6 @@
         margin: 1.67em 0
     }
 
-    h1,
     h2,
     h3,
     h4,
@@ -118,14 +122,51 @@
         margin: 0 auto;
         flex-direction: column;
     }
+    /* Flex Section 0 */
+
+    #section0 {
+        display: flex;
+        border: 2px dotted red;
+        margin: 0;
+        flex-direction: row;
+    }
+
+     article {
+        display: flex;
+        flex-direction: row;
+        height: 15px;
+        min-width: 25%;
+    }
+
+    article:nth-child(1) {
+        background: gold;
+        border: 2px gold;
+    }
+
+    article:nth-child(2) {
+        background: deepskyblue;
+        border: 2px deepskyblue;
+    }
+
+    article:nth-child(3) {
+        background: yellowgreen;
+        border: 2px yellowgreen;
+    }
+
+    article:nth-child(4) {
+        background: deeppink;
+        border: 2px deeppink;
+    }
     /* Flex Section 1 */
 
     #section1 {
         display: flex;
         min-width: 25%;
         margin-top: 3%;
-        margin-bottom: -5% justify-content: space-between;
+        margin-bottom: -5%
+        justify-content: space-between;
     }
+
     /* Header */
 
     header {
@@ -135,15 +176,20 @@
     }
 
     h1 {
-        font-family: "avenir-regular", arial;
+        font-family: "Avenir Next LT Pro Regular", arial;
+        font-weight: lighter;
+        min-width: 220px;
+        color: #4b4848;
+        letter-spacing: 2.5px;
+    }
+
+    #accent {
+        font-family: "Avenir Next LT Pro Demi", arial;
+        font-weight: bolder;
         min-width: 220px;
         color: #4b4848;
         letter-spacing: 1px;
     }
-
-    h1::last-word {
-    color: #00f;
-}
     /* Navigation */
 
     #social {
@@ -158,20 +204,41 @@
         font-size: 14px;
         letter-spacing: 1px;
     }
+
     /* Flex Section 2 */
 
     #section2 {
+        display: flex;
         margin-top: 5%;
         margin-bottom: 21%;
+    }
+
+    #section2 p {
+        font-size: 30px;
+        border: 2px pink;
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 60%;
+        width: 100%;
+        min-width: 300px;
+        border: 2px green;
+    }
+
+    #work a {
+        font-size: 14px;
+        letter-spacing: 1px;
     }
     /* Flex Section 3 */
 
     #section3 {
         display: flex;
         justify-content: space-between;
-        margin
     }
-/*
+    /*
     article {
         display: flex;
         width: 20%;
@@ -182,21 +249,3 @@
         align-items: baseline;
     }
     */
-
-article  {
-  height:15px;
-  /*animation: moving 2.4s ease-in-out infinite;flex: 1;*/
-}
-article:nth-child(1) {
-  background: gold;animation-delay: -0.2s;
-}
-article:nth-child(2) {
-  background: deepskyblue;animation-delay: -0.6s;
-}
-article:nth-child(3) {
-  background: yellowgreen;animation-delay: -1.0s;
-}
-article:nth-child(4) {
-  background: deeppink;animation-delay: -1.4s;
-}
-@-webkit-keyframes moving {50%{flex: 2;}}
