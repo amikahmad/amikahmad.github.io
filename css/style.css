@@ -35,7 +35,6 @@
     /* General CSS */
 
     body {
-        display: flex;
         background-color: WhiteSmoke;
         overflow: hidden;
     }
