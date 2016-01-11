@@ -186,7 +186,6 @@
     /* Image CSS */
 
 section.ani  {
-  height:100px;
   animation: moving 1.8s ease-in-out infinite;flex: 1;
 }
 section.ani:nth-child(1) {
