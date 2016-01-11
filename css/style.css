@@ -126,12 +126,11 @@
 
     #section0 {
         display: flex;
-        border: 2px dotted red;
         margin: 0;
         flex-direction: row;
     }
 
-     article {
+    article {
         display: flex;
         flex-direction: row;
         height: 15px;
@@ -140,22 +139,18 @@
 
     article:nth-child(1) {
         background: gold;
-        border: 2px gold;
     }
 
     article:nth-child(2) {
         background: deepskyblue;
-        border: 2px deepskyblue;
     }
 
     article:nth-child(3) {
         background: yellowgreen;
-        border: 2px yellowgreen;
     }
 
     article:nth-child(4) {
         background: deeppink;
-        border: 2px deeppink;
     }
     /* Flex Section 1 */
 
@@ -163,10 +158,8 @@
         display: flex;
         min-width: 25%;
         margin-top: 3%;
-        margin-bottom: -5%
-        justify-content: space-between;
+        margin-bottom: -5% justify-content: space-between;
     }
-
     /* Header */
 
     header {
@@ -204,37 +197,35 @@
         font-size: 14px;
         letter-spacing: 1px;
     }
-
     /* Flex Section 2 */
+
+    #section2 {
+        display: flex;
+        margin-top: 7%;
+        align-items: baseline;
+    }
 
     aside {
         margin-top: 5%;
         margin-bottom: 21%;
-    }
-
-    aside {
         font-size: 30px;
         line-height: 20px;
-        width: 60%;
+        width: 50%;
     }
 
     nav {
-        border: 2px green;
-    }
-
-
-    #work {
+        border-left: 2px sold yellowgreen;
         display: flex;
         flex-direction: column;
+        font-size: 16px;
+        margin-top: 5%;
+        margin-bottom: 21%;
         line-height: 25px;
-        justify-content: space-between;
-        margin-left: 60%;
-        width: 40%;
-        max-width: 200px;
+        min-width: 250px;
     }
 
-    #work a {
-        font-size: 14px;
+    nav a {
+        font-size: 16px;
         letter-spacing: 1px;
     }
     /* Flex Section 3 */
