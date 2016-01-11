@@ -177,24 +177,19 @@
     }
 
     /* First Flex Item */
-    article {
-    }
 
-    article#blurb {
+    article {
         flex: 1;
         font-size: 28px;
         line-height: 40px;
 
     }
 
-    article#menu {
-        flex: 1;
-        border-left: 2px solid yellowgreen;
-    }
-
     nav {
-        flex: ;
+        flex: 1;
         line-height: 25px;
+        border-left: 2px solid #4b4848;
+        pointer-events: auto;
     }
 
     nav a {
@@ -204,13 +199,12 @@
         text-decoration: none;
     }
 
-    nav a.experience:hover {
+nav a.experience:hover {
         color: yellowgreen;
     }
 
-    nav a.awards:hover {
+nav a.awards:hover {
         color: deepskyblue;
-
     }
 
 /*
