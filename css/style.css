@@ -204,9 +204,13 @@
         text-decoration: none;
     }
 
-    nav a:hover,
-    nav a.selected {
-        color: #969595;
+    nav a.experience:hover {
+        color: yellowgreen;
+    }
+
+    nav a.awards:hover {
+        color: deepskyblue;
+
     }
 
 /*
