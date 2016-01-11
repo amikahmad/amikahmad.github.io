@@ -31,6 +31,7 @@
         src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
         font-weight: normal;
         font-style: normal;
+    }
 
         @font-face {
         font-family: 'avenir-regular';
@@ -38,14 +39,8 @@
         src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Regular.svg#avenir-regular') format('svg');
         font-weight: normal;
         font-style: normal;
-
-        @font-face {
-        font-family: 'raleway-semibold';
-        src: url('../fonts/raleway-semibold.eot');
-        src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
-        font-weight: normal;
-        font-style: normal;
     }
+
     /* General CSS */
 
     body {
@@ -140,7 +135,7 @@
     }
 
     h1 {
-        font-family: "avenier-regular", arial;
+        font-family: "avenir-regular", arial;
         min-width: 220px;
         color: #4b4848;
         letter-spacing: 1px;
