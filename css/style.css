@@ -207,17 +207,21 @@
 
     /* Flex Section 2 */
 
-    #section2 {
+    aside {
         margin-top: 5%;
         margin-bottom: 21%;
     }
 
-    #section2 p {
+    aside {
         font-size: 30px;
         line-height: 20px;
-        border: 2px pink;
         width: 60%;
     }
+
+    nav {
+        border: 2px green;
+    }
+
 
     #work {
         display: flex;
@@ -226,8 +230,7 @@
         justify-content: space-between;
         margin-left: 60%;
         width: 40%;
-        min-width: 100px;
-        border: 2px green;
+        max-width: 200px;
     }
 
     #work a {
