@@ -8,31 +8,6 @@
     *****************************************
 */
     /*  Fonts  */
-    /*
-    @font-face {
-        font-family: 'raleway-regular';
-        src: url('../fonts/raleway-regular.eot');
-        src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-regular.woff') format('woff'), url('../fonts/raleway-regular.ttf') format('truetype'), url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'raleway-bold';
-        src: url('../fonts/raleway-bold.eot');
-        src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-bold.woff') format('woff'), url('../fonts/raleway-bold.ttf') format('truetype'), url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'raleway-semibold';
-        src: url('../fonts/raleway-semibold.eot');
-        src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-*/
 
     @font-face {
         font-family: 'Avenir Next LT Pro Regular';
@@ -58,7 +33,8 @@
     h4,
     h5,
     h6,
-    p {
+    p,
+    a {
         color: #4b4848;
         font-family: "Avenir Next LT Pro Regular", arial;
         letter-spacing: 1px;
@@ -97,23 +73,13 @@
         font-weight: bolder
     }
 
-    a {
-        color: #454545;
-        font-family: "raleway-regular", arial;
-        text-decoration: none
-    }
-
-    a:hover,
-    a.selected {
-        color: #969595;
-    }
     /* HTML5 */
 
     section {
         margin-left: 7%;
         margin-right: 7%;
     }
-    /* Flexbox */
+    /*  ----- Flex Wrapper ----- */
 
     .wrapper {
         display: flex;
@@ -122,46 +88,48 @@
         margin: 0 auto;
         flex-direction: column;
     }
-    /* Flex Section 0 */
+    /*  ----- Flex Container 0 ----- */
 
-    #section0 {
+    #container0 {
         display: flex;
         margin: 0;
         flex-direction: row;
     }
 
-    article {
+    figure {
         display: flex;
         flex-direction: row;
         height: 15px;
+        margin: 0;
     }
 
-    article:nth-child(1) {
+    figure:nth-child(1) {
         background: gold;
         width: 25%;
     }
 
-    article:nth-child(2) {
+    figure:nth-child(2) {
         background: deepskyblue;
         width: 17%;
     }
 
-    article:nth-child(3) {
+    figure:nth-child(3) {
         background: yellowgreen;
         width: 36%;
     }
 
-    article:nth-child(4) {
+    figure:nth-child(4) {
         background: deeppink;
         width: 22%;
     }
-    /* Flex Section 1 */
+    /*  ----- Flex Container 1  ----- */
 
-    #section1 {
+    #container1 {
         display: flex;
         min-width: 25%;
         margin-top: 3%;
-        margin-bottom: -5% justify-content: space-between;
+        margin-bottom: 9%;
+        justify-content: space-between;
     }
     /* Header */
 
@@ -183,11 +151,10 @@
         font-family: "Avenir Next LT Pro Demi", arial;
         font-weight: bolder;
         min-width: 220px;
-        color: #4b4848;
         letter-spacing: 1px;
     }
     /* Navigation */
-
+/*
     #social {
         display: flex;
         justify-content: space-between;
@@ -200,51 +167,61 @@
         font-size: 14px;
         letter-spacing: 1px;
     }
-    /* Flex Section 2 */
+    */
+    /* ----- Flex Container 2 ---- */
 
-    #section2 {
+    #container2 {
         display: flex;
-        margin-top: 7%;
+        flex-direction: row;
         align-items: baseline;
     }
 
-    aside {
-        margin-top: 5%;
-        margin-bottom: 21%;
-        font-size: 30px;
-        line-height: 20px;
-        width: 50%;
+    /* First Flex Item */
+    article {
+    }
+
+    article#blurb {
+        flex: 1;
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    article#menu {
+        flex: 1;
+        border-left: 2px solid yellowgreen;
     }
 
     nav {
-        border-left: 2px sold yellowgreen;
+        flex: ;
+        line-height: 25px;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        margin-left: 3%;
+        text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a.selected {
+        color: #969595;
+    }
+
+/*
+    nav {
         display: flex;
         flex-direction: column;
         font-size: 16px;
-        margin-top: 5%;
-        margin-bottom: 21%;
         line-height: 25px;
-        min-width: 250px;
+        min-width: 200px;
+        min-height: 144px;
+        border: 2px solid pink;
     }
 
     nav a {
         font-size: 16px;
         letter-spacing: 1px;
-    }
-    /* Flex Section 3 */
-
-    #section3 {
-        display: flex;
-        justify-content: space-between;
-    }
-    /*
-    article {
-        display: flex;
-        width: 20%;
-        min-height: 250px;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: baseline;
     }
     */
