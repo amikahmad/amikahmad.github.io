@@ -167,7 +167,7 @@
         letter-spacing: 1px;
     }
     */
-    /* ----- Flex Container 2 ---- */
+    /* ----- Flex Container 2 ----- */
 
     #container2 {
         display: flex;
@@ -211,6 +211,10 @@
     .awards-border {
       border-left: 2px solid deepskyblue;
     }
+
+#container3 {
+    display: none;
+}
     /*
     nav {
         display: flex;
