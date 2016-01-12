@@ -186,14 +186,14 @@
         flex: 1;
         line-height: 25px;
         border-left: 2px solid #4b4848;
-        pointer-events: auto;
     }
 
     nav a {
         display: block;
-        width: 100%;
+        width: 20%;
         margin-left: 3%;
         text-decoration: none;
+        border: 2px solid green;
     }
 
     nav a.experience:hover {
