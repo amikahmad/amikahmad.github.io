@@ -191,6 +191,7 @@
     nav a {
         display: block;
         width: 20%;
+        min-width: 163px;
         margin-left: 3%;
         text-decoration: none;
     }
