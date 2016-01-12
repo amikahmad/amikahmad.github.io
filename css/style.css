@@ -179,12 +179,12 @@
     article {
         flex: 1;
         font-size: 28px;
-        line-height: 40px;
+        line-height: 47px;
     }
 
     nav {
         flex: 1;
-        line-height: 25px;
+        line-height: 28px;
         border-left: 2px solid #4b4848;
     }
 
