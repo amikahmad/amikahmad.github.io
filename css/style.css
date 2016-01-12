@@ -72,7 +72,6 @@
     h6 {
         font-weight: bolder
     }
-
     /* HTML5 */
 
     section {
@@ -154,7 +153,7 @@
         letter-spacing: 1px;
     }
     /* Navigation */
-/*
+    /*
     #social {
         display: flex;
         justify-content: space-between;
@@ -175,14 +174,12 @@
         flex-direction: row;
         align-items: baseline;
     }
-
     /* First Flex Item */
 
     article {
         flex: 1;
         font-size: 28px;
         line-height: 40px;
-
     }
 
     nav {
@@ -199,15 +196,22 @@
         text-decoration: none;
     }
 
-nav a.experience:hover {
+    nav a.experience:hover {
         color: yellowgreen;
     }
 
-nav a.awards:hover {
+    nav a.awards:hover {
         color: deepskyblue;
     }
 
-/*
+    .experience-border {
+      border-left: 2px solid yellowgreen;
+    }
+
+    .awards-border {
+      border-left: 2px solid deepskyblue;
+    }
+    /*
     nav {
         display: flex;
         flex-direction: column;
