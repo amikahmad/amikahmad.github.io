@@ -146,6 +146,11 @@
         letter-spacing: 2.5px;
     }
 
+    h1:hover {
+        cursor: pointer;
+        cursor: hand;
+    }
+
     #accent {
         font-family: "Avenir Next LT Pro Demi", arial;
         font-weight: bolder;
@@ -205,13 +210,13 @@
         font-size: 14px;
         line-height: 25px;
         max-width: 825px;
-        color: #707070;
+        color: #808080;
     }
 
     #info span a {
         text-decoration: none;
         margin-left: 20px;
-        color: #707070;
+        color: #808080;
     }
 
     #info a:hover {
