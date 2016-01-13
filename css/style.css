@@ -35,7 +35,7 @@
     h6,
     p,
     a {
-        color: dimgrey;
+        color: #505050;
         font-family: "Avenir Next LT Pro Regular", arial;
         letter-spacing: 1px;
     }
@@ -142,7 +142,7 @@
         font-family: "Avenir Next LT Pro Regular", arial;
         font-weight: lighter;
         min-width: 220px;
-        color: #4b4848;
+        color: #505050;
         letter-spacing: 2.5px;
     }
 
@@ -169,7 +169,7 @@
   #main nav {
         flex: 1;
         line-height: 28px;
-        border-left: 2px solid dimgrey;
+        border-left: 1px solid #505050;
     }
 
     nav a {
@@ -189,11 +189,11 @@
     }
 
     #main .experience-border {
-        border-left: 2px solid yellowgreen;
+        border-left: 1px solid yellowgreen;
     }
 
     #main .awards-border {
-        border-left: 2px solid deepskyblue;
+        border-left: 1px solid deepskyblue;
     }
 
     #info {
@@ -205,15 +205,15 @@
         font-size: 14px;
         line-height: 25px;
         max-width: 825px;
-        color: grey;
+        color: #707070;
     }
 
     #info span a {
         text-decoration: none;
         margin-left: 20px;
-        color: grey;
+        color: #707070;
     }
 
     #info a:hover {
-        color: lightgrey;
+        color: #A0A0A0;
     }
