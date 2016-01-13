@@ -35,7 +35,7 @@
     h6,
     p,
     a {
-        color: #4b4848;
+        color: dimgrey;
         font-family: "Avenir Next LT Pro Regular", arial;
         letter-spacing: 1px;
     }
@@ -89,7 +89,7 @@
     }
     /*  ----- Flex Container 0 ----- */
 
-    #container0 {
+    #topbar {
         display: flex;
         margin: 0;
         flex-direction: row;
@@ -123,7 +123,7 @@
     }
     /*  ----- Flex Container 1  ----- */
 
-    #container1 {
+    #head {
         display: flex;
         min-width: 25%;
         margin-top: 3%;
@@ -152,40 +152,24 @@
         min-width: 220px;
         letter-spacing: 1px;
     }
-    /* Navigation */
-    /*
-    #social {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 60%;
-        width: 100%;
-        min-width: 300px;
-    }
-
-    #social a {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
-    */
     /* ----- Flex Container 2 ----- */
 
-    #container2 {
+    section {
         display: flex;
         flex-direction: row;
         align-items: baseline;
     }
-    /* First Flex Item */
 
-    article {
+ #main article {
         flex: 1;
         font-size: 28px;
         line-height: 47px;
     }
 
-    nav {
+  #main nav {
         flex: 1;
         line-height: 28px;
-        border-left: 2px solid #4b4848;
+        border-left: 2px solid dimgrey;
     }
 
     nav a {
@@ -196,38 +180,40 @@
         text-decoration: none;
     }
 
-    nav a.experience:hover {
+    #main nav a.experience:hover {
         color: yellowgreen;
     }
 
-    nav a.awards:hover {
+    #main nav a.awards:hover {
         color: deepskyblue;
     }
 
-    .experience-border {
-      border-left: 2px solid yellowgreen;
+    #main .experience-border {
+        border-left: 2px solid yellowgreen;
     }
 
-    .awards-border {
-      border-left: 2px solid deepskyblue;
+    #main .awards-border {
+        border-left: 2px solid deepskyblue;
     }
 
-#container3 {
-    display: none;
-}
-    /*
-    nav {
-        display: flex;
-        flex-direction: column;
-        font-size: 16px;
+    #info {
+        display: none;
+    }
+
+    section#info article p {
+        flex: 1;
+        font-size: 14px;
         line-height: 25px;
-        min-width: 200px;
-        min-height: 144px;
-        border: 2px solid pink;
+        max-width: 825px;
+        color: grey;
     }
 
-    nav a {
-        font-size: 16px;
-        letter-spacing: 1px;
+    #info span a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: grey;
     }
-    */
+
+    #info a:hover {
+        color: lightgrey;
+    }

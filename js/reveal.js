@@ -1,17 +1,17 @@
 var active = false;
 $('#name').click(function() {
     if (!active) {
-        $('#container2').fadeOut(500);
-        $('#container3').delay(500).fadeIn(800);
+        $('#main').fadeOut(200);
+        $('#info').delay(200).fadeIn(200);
         $('h1').css({
-            'border-left: '2px solid yellowgreen'
+            'color': 'grey'
         });
         active = true;
     } else {
-        $('#container3').fadeOut(500);
-        $('#container2').delay(500).fadeIn(800);
+        $('#info').fadeOut(200);
+        $('#main').delay(200).fadeIn(200);
         $('h1').css({
-            'border-left': 'none'
+            'color': 'dimgrey'
         });
         active = false;
     }
