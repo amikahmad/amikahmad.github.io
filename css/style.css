@@ -210,15 +210,18 @@
         font-size: 14px;
         line-height: 25px;
         max-width: 825px;
-        color: #808080;
+        color: #707070;
     }
 
     #info span a {
         text-decoration: none;
         margin-left: 20px;
-        color: #808080;
+        color: #707070;
     }
 
+    #info a {
+        color: #707070;
+    }
     #info a:hover {
         color: #A0A0A0;
     }

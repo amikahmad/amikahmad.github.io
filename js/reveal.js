@@ -4,7 +4,7 @@ $('#name').click(function() {
         $('#main').fadeOut(200);
         $('#info').delay(200).fadeIn(200);
         $('h1').css({
-            'color': '#808080'
+            'color': '#707070'
         });
         active = true;
     } else {
