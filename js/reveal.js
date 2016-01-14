@@ -1,5 +1,6 @@
 var active = false;
 $('.slide').click(function() {
+        $(".slide").toggle();
     if (!active) {
         $('#main').fadeOut(200);
         $('#plus').delay(200).fadeIn(200);
