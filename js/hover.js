@@ -9,3 +9,9 @@ $(".awards").hover(function () {
 }, function () {
     $("#color").removeClass("awards-border");
 });
+
+$(".slide").hover(function () {
+    $("#color").addClass("slide-border");
+}, function () {
+    $("#color").removeClass("slide-border");
+});

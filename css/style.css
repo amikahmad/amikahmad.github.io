@@ -146,11 +146,6 @@
         letter-spacing: 2.5px;
     }
 
-    h1:hover {
-        cursor: pointer;
-        cursor: hand;
-    }
-
     #accent {
         font-family: "Avenir Next LT Pro Demi", arial;
         font-weight: bolder;
@@ -159,19 +154,22 @@
     }
     /* ----- Flex Container 2 ----- */
 
-    section {
+    #content {
         display: flex;
         flex-direction: row;
         align-items: baseline;
     }
 
- #main article {
+    article#main {
         flex: 1;
-        font-size: 28px;
-        line-height: 47px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-right:1%;
+        min-height: 110px;
+        min-width: 790px;
     }
 
-  #main nav {
+    nav {
         flex: 1;
         line-height: 28px;
         border-left: 1px solid #505050;
@@ -183,45 +181,89 @@
         min-width: 163px;
         margin-left: 3%;
         text-decoration: none;
+        cursor: pointer;
+        cursor: hand;
     }
 
-    #main nav a.experience:hover {
+    a.slide {
+        color: #505050;
+    }
+
+    a.experience:hover {
         color: yellowgreen;
     }
 
-    #main nav a.awards:hover {
+    a.awards:hover {
         color: deepskyblue;
     }
 
-    #main .experience-border {
+    .experience-border {
         border-left: 1px solid yellowgreen;
     }
 
-    #main .awards-border {
+    .awards-border {
         border-left: 1px solid deepskyblue;
     }
+    /* Plus Sign */
 
-    #info {
+    .slide {
+        color: #505050;
+    }
+
+    .slide-border {
+        border-left: 1px solid #A0A0A0;
+    }
+
+   label.slide:hover {
+        color: #A0A0A0;
+    }
+
+    .slide {
+        position: relative;
+        margin-left: 3%;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+    #slide-toggle {
         display: none;
     }
 
-    section#info article p {
+    #slide-toggle:checked + .slide:after {
+        content: "-";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: 3%;
+        background: WhiteSmoke;
+    }
+
+    #plus {
+        display: none;
+    }
+
+    article#plus {
         flex: 1;
         font-size: 14px;
         line-height: 25px;
-        max-width: 825px;
+        margin-right:1%;
+        min-height: 110px;
+        min-width: 790px;
         color: #707070;
     }
 
-    #info span a {
+    #plus span a {
         text-decoration: none;
         margin-left: 20px;
         color: #707070;
     }
 
-    #info a {
+    #plus a {
         color: #707070;
     }
-    #info a:hover {
+
+    #plus a:hover {
         color: #A0A0A0;
     }
