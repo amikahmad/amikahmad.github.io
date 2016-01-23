@@ -80,7 +80,7 @@
     }
     /*  ----- Flex Wrapper ----- */
 
-    .wrapper {
+    #wrapper {
         display: flex;
         min-width: 92.72727272727273%;
         min-height: 500px;
